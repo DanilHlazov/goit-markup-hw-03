@@ -60,7 +60,9 @@
 .page-header {
   background-color: #ccc;
 }
-
+.header {
+  border-bottom: 1px solid #ececec;
+}
 /* Main-nav */
 
 .main-nav {
@@ -141,7 +143,7 @@
   letter-spacing: 0.03em;
 }
 
-.feature-list.item :not(:last-child) {
+.feature-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -227,7 +229,7 @@
 .team {
   background-color: #f5f4fa;
   padding-top: 94px;
-  padding-bottom: 0;
+  padding-bottom: 90px;
 }
 .our-team {
   color: var(--title-text-color);
@@ -384,12 +386,6 @@ img {
   list-style: none;
 }
 
-.button-filter:hover,
-.button-filter:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -424,6 +420,13 @@ img {
   line-height: 1.62;
   letter-spacing: 0.06em;
 }
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .button-function.list {
   justify-content: center;
   text-align: center;
@@ -463,7 +466,7 @@ img {
   text-decoration: none;
 }
 .work-list {
-  margin: -15px;
+  margin: -30px;
   display: flex;
   flex-wrap: wrap;
   font-weight: 500;
