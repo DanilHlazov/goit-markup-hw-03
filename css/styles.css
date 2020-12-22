@@ -280,7 +280,7 @@
   line-height: 1.2;
 
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   text-align: center;
 }
 .what-wew-do-list {
@@ -328,6 +328,9 @@ img {
   letter-spacing: 0.03em;
   margin-top: 20px;
   margin-bottom: 0;
+}
+.padd {
+  padding: 56px;
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
