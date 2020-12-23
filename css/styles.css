@@ -304,15 +304,11 @@ img {
   height: auto;
 }
 /*Footer*/
-.footer {
-  background-color: #2f303a;
-}
+
 .footer-area {
-  display: flex;
+  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 15px;
-  text-align: left;
 }
 .conteiner .footer-area {
   margin-right: 30px;
@@ -329,9 +325,7 @@ img {
   margin-top: 20px;
   margin-bottom: 0;
 }
-.padd {
-  padding: 56px;
-}
+
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
 
@@ -362,9 +356,6 @@ img {
   font-style: normal;
   margin: 0;
   padding: 0;
-}
-.footer-logo {
-  padding-top: 60px;
 }
 
 /*Button*/
